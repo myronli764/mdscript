@@ -1,1 +1,1 @@
-stratch to md analysis
+Stratch for MD analysis
