@@ -6,6 +6,17 @@ import re
 from io import StringIO
 from xml.etree import cElementTree
 
+r'''
+ This program is functionated for providing nonbond list with exclusion,
+ bond list, angle list and dihedral list.
+ IBI users are suffering from asignating the AA atoms with CG index for a
+ long time. This program is used for reducing the human operation on complex
+ network system as well as corse-grained the AA system.
+ It needs .xml .gro .tpr for inputs.
+ TODO
+ ....
+'''
+
 def control_in(control_file):
     pass
 
