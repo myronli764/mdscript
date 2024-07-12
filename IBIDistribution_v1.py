@@ -11,8 +11,15 @@ from scipy.stats import circmean
 import math
 def control_in(control_file):
     pass
-
-
+r'''
+ this analysic program provide pairs, bonds and angle distribution 
+ for the given system. It needs .gro .xtc .xml .tpr files for input, 
+ used for the CG bead index determination, AA trajectory, CG topology
+ and AA topology.
+ TODO
+ 1. modify the logic of the program
+ 2. use jit for subjecting excluded calculation
+'''
 class Box(object):
     def __init__(self):
         self.xy = 0
