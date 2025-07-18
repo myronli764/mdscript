@@ -115,7 +115,7 @@ bonds = {}
 for b in u.bonds:
     ai, aj = b.atoms
     bonds[(ai.id,aj.id)] = [f'{ai.element}-{aj.element}',0,0]
-box = u.dimensions[:3]
+box = u.dimensions[:3]*0.1
 xmlw = xml(pos,vel,types,bonds,{},{},box)
 xmlw.writer(xml_name,program='galamost')
 
